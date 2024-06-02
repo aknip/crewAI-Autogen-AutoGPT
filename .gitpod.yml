@@ -1,6 +1,6 @@
 tasks:
   - name: Setup
-    init: curl -LsSf https://astral.sh/uv/install.sh | sh && uv pip install -r requirements.txt
+    init: curl -LsSf https://astral.sh/uv/install.sh | sh && uv venv && source .venv/bin/activate && uv pip install -r requirements.txt
     command: gp open README.md
 
 vscode:
