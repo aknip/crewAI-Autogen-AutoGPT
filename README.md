@@ -1,5 +1,8 @@
 # AutoGPT
 
+## Run in Gitpod
+https://gitpod.io/#https://github.com/aknip/crewAI-Autogen-AutoGPT
+
 ## Install
 uv venv
 source .venv/bin/activate
