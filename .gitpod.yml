@@ -1,8 +1,8 @@
 tasks:
-  - init: pip install crewai==0.30.11 crewai-tools==0.2.6 duckduckgo-search==6.1.4 agentops==0.2.0
+  - init: pip install -r requirements.txt
   
   - name: Open the readme, contract and test
-    command: gp open README.md && gp open quickstart-demo.ipynb
+    command: gp open README.md && gp open CrewAI.ipynb
 
 vscode:
   extensions:

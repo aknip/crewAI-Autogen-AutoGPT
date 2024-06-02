@@ -3,6 +3,8 @@
 ## Run in Gitpod
 https://gitpod.io/#https://github.com/aknip/crewAI-Autogen-AutoGPT
 
+Read more about how to use Jupyter Notebooks with Gitpod in [the documentation.](https://www.gitpod.io/docs/references/ides-and-editors/jupyter-notebooks)
+
 ## Install
 uv venv
 source .venv/bin/activate
