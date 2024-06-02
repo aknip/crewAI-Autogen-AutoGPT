@@ -5,12 +5,12 @@ tasks:
         uv venv && source .venv/bin/activate && 
         uv pip install -r requirements.txt &&
         gp sync-done initSetup
-    command: gp open README.md && gp open CrewAi.ipynb
+    command: gp open README.md && gp open CrewAi.ipynb && marimo edit hello-world-marimo.py
 
-  - name: Marimo
-    init: gp sync-await initSetup # wait for the above defined 'initSetup' to finish
-    command: marimo edit hello-world-marimo.py
-    #openMode: split-right
+  #- name: Marimo
+  #  init: gp sync-await initSetup # wait for the above defined 'initSetup' to finish
+  #  command: marimo edit hello-world-marimo.py
+  #  openMode: split-right
 
 vscode:
   extensions:
