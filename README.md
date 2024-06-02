@@ -16,6 +16,20 @@ jupyter lab
 
 Temp:
 tasks:
+  - name: Setup
+    init: pip install -r requirements.txt
+    command: gp open CrewAI.ipynb
+
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-toolsai.jupyter
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
+
+
+
+tasks:
   - name: Open the readme, contract and test
     command: gp open contracts/Token.sol && gp open test/Token.js && gp open README.md
   
@@ -26,3 +40,4 @@ tasks:
   - name: Frontend server
     command: npx hardhat --network localhost run scripts/deploy.js && cd frontend && npm install && npm run start
     openMode: split-right
+
