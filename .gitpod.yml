@@ -1,7 +1,7 @@
 tasks:
   - name: Setup
-    init: curl -LsSf https://astral.sh/uv/install.sh | sh
-    #command: gp open CrewAI.ipynb
+    init: curl -LsSf https://astral.sh/uv/install.sh | sh && uv pip install -r requirements.txt
+    command: gp open README.md
 
 vscode:
   extensions:
