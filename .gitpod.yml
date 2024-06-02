@@ -10,7 +10,7 @@ tasks:
   - name: Marimo
     init: gp sync-await initSetup # wait for the above defined 'initSetup' to finish
     command: marimo edit hello-world-marimo.py
-    openMode: split-right
+    #openMode: split-right
 
 vscode:
   extensions:
