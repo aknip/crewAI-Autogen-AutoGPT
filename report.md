@@ -1,0 +1,1 @@
+der vollständige Bericht über die Weiterentwicklung von Apples Siri im Jahr 2024 in deutscher Sprache, formatiert als Markdown.
