@@ -4,3 +4,4 @@ crewai-tools==0.2.6
 duckduckgo-search==6.1.4 
 agentops==0.2.0
 ipykernel==6.29.4
+marimo==0.6.13

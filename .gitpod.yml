@@ -3,6 +3,10 @@ tasks:
     init: curl -LsSf https://astral.sh/uv/install.sh | sh && uv venv && source .venv/bin/activate && uv pip install -r requirements.txt
     command: gp open README.md && gp open CrewAi.ipynb
 
+  - name: Marimo
+    command: marimo edit hello-world-marimo.py
+    openMode: split-right
+
 vscode:
   extensions:
     - ms-python.python
