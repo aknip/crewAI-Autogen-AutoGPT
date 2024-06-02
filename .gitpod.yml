@@ -4,6 +4,7 @@ tasks:
     command: gp open README.md && gp open CrewAi.ipynb
 
   - name: Marimo
+    init: gp sync-await curl # wait for the above 'init' to finish
     command: marimo edit hello-world-marimo.py
     openMode: split-right
 
