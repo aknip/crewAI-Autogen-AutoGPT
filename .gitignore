@@ -17,3 +17,4 @@ venv
 .DS_Store
 .venv/
 config.pickle
+.env

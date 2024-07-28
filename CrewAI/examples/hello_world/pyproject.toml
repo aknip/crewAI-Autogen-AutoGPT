@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hello_world"
+version = "0.1.0"
+description = "hello-world using crewAI"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+crewai = { extras = ["tools"], version = "^0.41.1" }
+
+[tool.poetry.scripts]
+hello_world = "hello_world.main:run"
+train = "hello_world.main:train"
+replay = "hello_world.main:replay"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

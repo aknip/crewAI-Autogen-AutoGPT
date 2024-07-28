@@ -1,0 +1,5 @@
+do_research:
+  description: >
+    Answer the question '{topic}'. Answer in some short paragraphs, do not add anything else.
+  expected_output: >
+    The answer to the question '{topic}'

@@ -1,7 +1,6 @@
 pyautogen==0.2.27 
-crewai==0.30.11 
-crewai-tools==0.2.6 
+crewai==0.41.1
+crewai-tools==0.4.26
 duckduckgo-search==6.1.4 
-agentops==0.2.0
 ipykernel==6.29.4
 marimo==0.6.13
