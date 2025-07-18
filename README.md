@@ -12,9 +12,9 @@ source .venv/bin/activate
 ### CrewAI
 uv pip install -r requirements.txt
 OR:
-uv pip install jupyterlab==4.2.1 pyautogen==0.2.27 crewai==0.41.1 crewai-tools==0.4.26 duckduckgo-search==6.1.4
+uv pip install jupyterlab==4.2.1 ag2==0.2.27 crewai==0.41.1 crewai-tools==0.4.26 duckduckgo-search==6.1.4
 
-(OLDER VERSION: uv pip install jupyterlab==4.2.1 pyautogen==0.2.27 crewai==0.30.11 crewai-tools==0.2.6 duckduckgo-search==6.1.4 agentops==0.2.0)
+(OLDER VERSION: uv pip install jupyterlab==4.2.1 ag2==0.2.27 crewai==0.30.11 crewai-tools==0.2.6 duckduckgo-search==6.1.4 agentops==0.2.0)
 
 
 ### Web Voyager
